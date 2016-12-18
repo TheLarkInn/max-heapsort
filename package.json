@@ -13,6 +13,8 @@
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-preset-es2015": "^6.18.0",
+    "coveralls": "^2.11.15",
+    "cz-conventional-changelog": "^1.2.0",
     "jest-cli": "^18.0.0"
   },
   "jest": {
@@ -32,6 +34,11 @@
     "CS",
     "DataStructures"
   ],
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "bugs": {
     "url": "https://github.com/TheLarkInn/max-heapsort/issues"
   },
